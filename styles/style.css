@@ -12,36 +12,33 @@ body{
 header {
     background-color: #162d50;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 header h1 {
-  display: inline;
-  top: 18px;
-  left: 10px;
+  text-align: center;
 }
 
 header img {
-  max-width: 7%;
+  max-width: 10%;
   height: auto;
+  float: left;
+
 }
 
-nav ul {
+nav ul{
   list-style-type: none;
   margin: 0;
-  padding: 1em 6em 1em 6em;
+  padding: 0;
   overflow: hidden;
   background-color: #ff0000;
+  font-size: 20px;
 }
 
-nav ul li {
+nav ul li{
   float: left;
-  border-right: 1px solid #bbb;
-}
-
-nav ul li:last-child {
-  border-right: none;
 }
 
 nav ul li a {
@@ -49,9 +46,7 @@ nav ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-transform: uppercase;
   text-decoration: none;
-  font-size: 16px;
 }
 
 nav ul li a:hover {
@@ -60,6 +55,15 @@ nav ul li a:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.active {
+  background-color: #666666;
+}
+
+nav ul li a:last-child {
+  border-right: none;
+}
+
 
 .homeimages img {
   max-width: 60%;
@@ -72,10 +76,13 @@ nav ul li a:hover {
 }
 
 .welcomemessage {
-  background-color: #b3b3b3;
+  background-color: #666666;
   text-align: center;
+  border: 1em 1em;
   padding: 10px 10px;
   font-size: 20px;
+  border: 2em 2em 2em 2em;
+  margin: 1em 1em 1em 1em;
 }
 
 .button a {
@@ -85,28 +92,41 @@ nav ul li a:hover {
   padding: 30px 64px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 32px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .contentbody {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
 
-iframe {
-
+#leftside {
+  float: left;
+  background-color: #b3b3b3;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
 }
 
-.twitterfeed {
-  overflow: scroll;
-
+#middleside {
+  float: right;
+  background-color: #b3b3b3;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
 }
 
+#rightside {
+  float: right;
+  background-color: #b3b3b3;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
+}
 
 footer {
   background-color: #162d50;
   color: #fff;
+  display: inline-block;
 }
 
 footer h2 {
@@ -117,10 +137,12 @@ footer h2 {
 
 footer address {
   font-size: 20px;
-  display: inline;
+  float: left;
 }
 
 footer img {
   height: 10%;
   width: 10%;
+  float: right;
+  margin: 0.5em 0.5em 0.5em 0.5em;
 }
