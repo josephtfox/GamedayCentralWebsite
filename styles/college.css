@@ -1,0 +1,216 @@
+html {
+  font-size: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Times, sans-serif;
+}
+
+header {
+    background-color: #162d50;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header img {
+  max-width: 10%;
+  height: auto;
+  float: left;
+
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ff0000;
+  font-size: 20px;
+}
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background-color: #800000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #666666;
+}
+
+nav ul li a:last-child {
+  border-right: none;
+}
+
+
+.homeimages img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.welcomemessage {
+  background-color: #666666;
+  text-align: center;
+  border: 1em 1em;
+  padding: 10px 10px;
+  font-size: 20px;
+  margin: 1em 1em 1em 1em;
+}
+
+.contentbody {
+  display: grid;
+  grid-template-columns: 30em 33em 27em;
+}
+
+#leftside {
+  float: left;
+  background-color: #b3b3b3;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
+}
+
+#leftside h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#leftside h4 {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 1em 1em 1em 1em;
+  margin: 1em 1em 1em 1em;
+  font-size: 20px
+}
+
+#leftside p {
+  background-color: #162d50;
+  color: #ffffff;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
+  text-align: justify;
+}
+
+.middle img {
+  border-radius: 8px;
+  margin: 1em 1em 1em 1em;
+
+}
+
+#rightside {
+  float: right;
+  background-color: #b3b3b3;
+  padding: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
+}
+
+#rightside h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#one {
+  background-color: #162d50;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#two {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#three {
+  background-color: #162d50;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#four {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#five {
+  background-color: #162d50;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#six {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#seven {
+  background-color: #162d50;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#eight {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 25px
+}
+
+#nine {
+  background-color: #162d50;
+  color: #ffffff;
+  font-size: 25px
+}
+
+footer {
+  background-color: #162d50;
+  color: #fff;
+  display: inline-block;
+}
+
+footer h2 {
+  color: #ff0000;
+  padding: 0 1em 0 1em;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+footer address {
+  padding: 0 2em 0 2em;
+  font-size: 20px;
+  float: left;
+}
+
+footer img {
+  height: 10%;
+  width: 10%;
+  float: right;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
