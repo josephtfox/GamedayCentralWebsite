@@ -64,7 +64,6 @@ nav ul li a:last-child {
   border-right: none;
 }
 
-
 .homeimages img {
   max-width: 60%;
   height: auto;
@@ -213,4 +212,5 @@ footer img {
   width: 10%;
   float: right;
   margin: 0.5em 0.5em 0.5em 0.5em;
+  background-color: 
 }
