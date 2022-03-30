@@ -94,6 +94,15 @@ nav ul li a:last-child {
   margin: 1em 1em 1em 1em;
 }
 
+#top-left img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin: auto;
+}
+
 #top-left p {
   padding: 1em 1em 1em 1em;
   text-align: justify;
@@ -110,7 +119,14 @@ nav ul li a:last-child {
   margin-right: auto;
   width: 85%;
   margin: auto;
+}
 
+#top-right h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
 }
 
 #top-right p {
