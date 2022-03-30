@@ -84,6 +84,8 @@ nav ul li a:last-child {
 
 #top-left {
   background-color: #b3b3b3;
+  display: inline;
+  float: left;
 }
 
 #top-left h2 {
@@ -101,6 +103,7 @@ nav ul li a:last-child {
   margin-right: auto;
   width: 40%;
   margin: auto;
+
 }
 
 #top-left p {
@@ -111,6 +114,7 @@ nav ul li a:last-child {
   color: white;
   margin: 1em 1em 1em 1em;
 }
+
 
 #top-right img {
   border-radius: 8px;
