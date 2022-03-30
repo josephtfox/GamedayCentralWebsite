@@ -88,13 +88,23 @@ header img {
 }
 
 .page_title {
-  background-color: #666666;
+  background-color: #0033A0;
   text-transform: uppercase;
   text-align: center;
   font-size: 30px;
-  padding: 0em 1em 0em 1em;
+  color: white;
+  padding: 0em 1em 0.5em 1em;
   margin: 0px 30px 0px 30px;
+  text-shadow: 2px 2px 4px black;
 }
+
+.page_title img {
+  display: block;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+}
+
 
 .contentbody {
   background-color: #ffffff;
@@ -107,8 +117,6 @@ header img {
 
 #top-left {
   background-color: #b3b3b3;
-  display: inline;
-  float: left;
 }
 
 #top-left h2 {
@@ -119,17 +127,7 @@ header img {
   margin: 1em 1em 1em 1em;
 }
 
-#top-left img {
-  border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  margin: auto;
-
-}
-
-#top-left p {
+.top-left-paragraph-one {
   padding: 1em 1em 1em 1em;
   text-align: justify;
   font-size: 20px;
@@ -138,6 +136,32 @@ header img {
   margin: 1em 1em 1em 1em;
 }
 
+.top-left-paragraph-two {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-image-one{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin: auto;
+}
+
+.top-left-image-two{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin: auto;
+}
 
 #top-right img {
   border-radius: 8px;
@@ -163,6 +187,12 @@ header img {
   background-color: #162d50;
   color: white;
   margin: 1em 1em 1em 1em;
+}
+
+.schoolinfo {
+  background-color: #b3b3b3;
+  margin: 1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 #bottom-left {
