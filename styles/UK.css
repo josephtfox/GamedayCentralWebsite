@@ -105,7 +105,6 @@ header img {
   margin: auto;
 }
 
-
 .contentbody {
   background-color: #ffffff;
   display: grid;
@@ -177,7 +176,7 @@ header img {
   font-size: 35px;
   background-color: #ff0000;
   color: white;
-  margin: 1em 1em 1em 1em;
+  margin: 0.5em 1em 1em 1em;
 }
 
 #top-right p {
@@ -191,7 +190,7 @@ header img {
 
 .schoolinfo {
   background-color: #b3b3b3;
-  margin: 1em 1em 1em 1em;
+  margin: 0em 1em 1em 1em;
   padding: 1em 1em 1em 1em;
 }
 
