@@ -117,7 +117,7 @@ header img {
   background-color: #b3b3b3;
   padding: 1em 1em 1em 1em;
   margin: 0em 1em 1em 1em;
-  grid-area: leftside:
+  grid-area: leftside;
 }
 
 #leftside h1 {
@@ -245,5 +245,4 @@ footer img {
   width: 10%;
   float: right;
   margin: 0.5em 0.5em 0.5em 0.5em;
-  background-color:
 }
