@@ -87,22 +87,154 @@ header img {
   display: block;
 }
 
-table {
-  background-color: #b3b3b3;
+.page_title {
+  background-color: #0033A0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding: 0em 1em 0.5em 1em;
+  margin: 0px 30px 0px 30px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.page_title img {
+  display: block;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+}
+
+.contentbody {
+  background-color: #ffffff;
+  display: grid;
+  grid: auto auto/auto auto;
+  grid-gap: 10px;
+  margin: 1em 1em 1em 1em;
   padding: 1em 1em 1em 1em;
 }
 
-table caption {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
+#top-left {
+  background-color: #b3b3b3;
 }
 
-table td {
-  border: 1px solid black;
-  font-size: 25px;
-  color: red;
-  font-weight: bold;
+#top-left h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-paragraph-one {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-paragraph-two {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.top-left-image-one{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin: auto;
+}
+
+.top-left-image-two{
+  display: block;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin: auto;
+}
+
+#top-right img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  width: 95%;
+}
+
+#top-right h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 0.5em 1em 1em 1em;
+}
+
+#top-right p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+.schoolinfo {
+  background-color: #b3b3b3;
+  margin: 0em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
+}
+
+#bottom-left {
+  background-color: #b3b3b3;
+}
+
+#bottom-left h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+#bottom-left p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
+}
+
+#bottom-right {
+  background-color: #b3b3b3;
+}
+
+#bottom-right h2 {
+  text-align: center;
+  font-size: 35px;
+  background-color: #ff0000;
+  color: white;
+  margin: 1em 1em 1em 1em;
+
+}
+
+#bottom-right p {
+  padding: 1em 1em 1em 1em;
+  text-align: justify;
+  font-size: 20px;
+  background-color: #162d50;
+  color: white;
+  margin: 1em 1em 1em 1em;
 }
 
 footer {
@@ -129,5 +261,4 @@ footer img {
   width: 10%;
   float: right;
   margin: 0.5em 0.5em 0.5em 0.5em;
-  background-color:
 }
