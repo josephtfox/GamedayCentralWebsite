@@ -149,7 +149,7 @@ header img {
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 25%;
   margin: auto;
 }
 
@@ -158,16 +158,16 @@ header img {
   border-radius: 8px;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 25%;
   margin: auto;
 }
 
 #top-right img {
   border-radius: 8px;
   display: block;
-  margin-left: auto;
+  margin-left: 2em;
   margin-right: auto;
-  margin-top: 2.5em;
+  margin-top: 4.5em;
   width: 95%;
 }
 
@@ -176,7 +176,7 @@ header img {
   font-size: 35px;
   background-color: #ff0000;
   color: white;
-  margin: 0.5em 1em 1em 1em;
+  margin: 0.5em 0.5em 1em 0.5em;
 }
 
 #top-right p {
@@ -185,12 +185,12 @@ header img {
   font-size: 20px;
   background-color: #162d50;
   color: white;
-  margin: 1em 1em 1em 1em;
+  margin: 1em 0em 1em 0em;
 }
 
 .schoolinfo {
   background-color: #b3b3b3;
-  margin: 0em 1em 1em 1em;
+  margin: 0em 0em 1em 1em;
   padding: 1em 1em 1em 1em;
 }
 
