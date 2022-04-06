@@ -120,7 +120,7 @@ header img {
   grid-area: leftside;
 }
 
-#leftside h1 {
+#leftside h3 {
   text-align: center;
   font-size: 40px;
 }
@@ -162,7 +162,7 @@ header img {
   grid-area: rightside;
 }
 
-#rightside h1 {
+#rightside h2 {
   text-align: center;
   font-size: 40px;
 }
