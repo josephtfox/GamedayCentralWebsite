@@ -103,7 +103,7 @@ header img {
   border: 1em 1em;
   padding: 10px 10px;
   font-size: 20px;
-  margin: 1em 1em 1em 1em;
+  border: 1em solid transparent;
 }
 
 .contentbody {
