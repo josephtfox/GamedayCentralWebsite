@@ -24,3 +24,4 @@ This project is a semantic web-based information hub for college and professiona
 ## Acknowledgments
 
 - University of Kentucky
+- Dr. Sean Burns
